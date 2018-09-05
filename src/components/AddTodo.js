@@ -23,7 +23,7 @@ class AddTodo extends React.Component {
             <TextInput 
                 onChangeText={(text)=>{this.setState({text})}}
                 value={this.state.text}
-                placeholder={'Adicione seu To do'}
+                placeholder={'Adicione uma nova tarefa'}
                 style={styles.todoInput}
             />
             <TouchableOpacity onPress={()=> this.addTodo(this.state.text)}>
