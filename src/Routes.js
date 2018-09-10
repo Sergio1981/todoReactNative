@@ -7,7 +7,7 @@ const Routes = createStackNavigator({
     home: { 
         screen: TodoApp,
         navigationOptions: ({ navigation }) => ({
-            title: 'Tarefa',
+            title: 'Tarefas',
             headerBackTitle: null
         })
     },
